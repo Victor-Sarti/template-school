@@ -61,7 +61,7 @@ main {
     align-items: center;
 }
 
-main > span {
+main > span { 
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -134,8 +134,14 @@ section{
     padding-left: 32px;
     padding-top: 27px ;
     border: 2px solid black;
+    border-right: 4px solid black;
+    margin-top: 110px;
 }
 
+.cardContent > img{
+    width: 48px;
+    height: 48px;
+}
 .cardContent{
     display: flex;
     flex-direction: column;
@@ -151,12 +157,191 @@ section{
 
 .cardContent > p{
     width: 207px;
-    height: 16px;
+    height: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } 
+.cardContent > h3{
+    font-size: 24px;
+} 
 
-.cardContent > img{
+.yellow-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 272px;;
+    height:306px ;
+    background-color: #FF9A3C;
+    padding-left: 32px;
+    padding-top: 27px ;
+    border: 2px solid black;
+    border-right: 4px solid black;
+    margin-top: 140px;
+}
+
+
+
+.yellow-cardContent > img{
     width: 48px;
     height: 48px;
 }
+.yellow-cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
+.yellow-card > img {
+    display: block;
+    align-self:flex-end;
+    margin-top: 40px;
+
+}
+
+.yellow-cardContent > h4{
+    font-size: 24px;
+    
+} 
+.yellow-cardContent > p{
+    font-size: 16px;
+    width: 207px;
+    height: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+
+.sax-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 272px;;
+    height:306px ;
+    background-color: #ED4D1B;
+    padding-left: 32px;
+    padding-top: 27px ;
+    border: 2px solid black;
+    border-right: 4px solid black;
+    margin-top: 115px;
+}
+
+.sax-cardContent > img{
+    width: 48px;
+    height: 48px;
+}
+.sax-cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sax-card > img {
+    display: block;
+    align-self:flex-end;
+    margin-top: 40px;
+
+}
+
+.sax-cardContent > p{
+    width: 207px;
+    height: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px
+} 
+
+.sax-cardContent > h5{
+    font-size: 24px;
+} 
+
+.bate-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 272px;;
+    height:306px ;
+    background-color:#FF9A3C;
+    padding-left: 32px;
+    padding-top: 27px ;
+    border: 2px solid black;
+    border-right: 4px solid black;
+    margin-top: 135px;
+}
+
+.bate-cardContent > img{
+    width: 48px;
+    height: 48px;
+}
+.bate-cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.bate-card > img {
+    display: block;
+    align-self:flex-end;
+    margin-top: 40px;
+
+}
+
+.bate-cardContent > h6{
+    font-size: 24px;
+} 
+
+.bate-cardContent > p{
+    width: 207px;
+    height: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px
+} 
+
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reiCard{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+
+span{
+   
+    display: flex;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    align-self: center;
+    align-items: first baseline;
+}
+
+span>h1{
+    right: 75px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    font-size:60px ;
+
+}
+
+span > h2{
+    color: #FF9A3C;
+    margin-right: -182px;
+    font-size: 60px;
+}
+span>h3{
+    margin-left: -105px;
+    font-size: 60px;
+}
+button{
+    width: 225px;
+    height: 48px;
+    background-color: #ED4D1B;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid black;
+
+}
